@@ -22,7 +22,7 @@ type Container struct {
 // Crea todas las dependencias del proyecto y las conecta entre sí.
 func NewContainer() *Container {
 	// 1️⃣ Conexión a MongoDB
-	mongoClient, err := db.NewMongoClient("mongodb+srv://eduardogomezsk8:123qwe.-.@dragonball.pygof.mongodb.net/?appName=dragonball", "testdb")
+	mongoClient, err := db.NewMongoClient("mongodb+srv://eduardogomezsk8:xxxxxxxxx@dragonball.pygof.mongodb.net/?appName=dragonball", "testdb")
 	if err != nil {
 		panic(err)
 	}
